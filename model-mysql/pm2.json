@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "model-mysql",
+    "script": "production.js",
+    "cwd": "/Users/welefen/Develop/git/thinkjs2-demos/model-mysql/www",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}

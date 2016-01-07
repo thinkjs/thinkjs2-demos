@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "file-download",
+    "script": "www/production.js",
+    "cwd": "/Users/welefen/Develop/git/thinkjs2-demos/file-download",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}

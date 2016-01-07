@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "websocket-sockjs",
+    "script": "production.js",
+    "cwd": "/Users/welefen/Develop/git/thinkjs2-demos/websocket-sockjs/www",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}

@@ -1,0 +1,14 @@
+{
+  "apps": [{
+    "name": "app-mode",
+    "script": "www/production.js",
+    "cwd": "/Users/welefen/Develop/git/thinkjs2-demos/app-mode",
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}
