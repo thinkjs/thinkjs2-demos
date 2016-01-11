@@ -13,9 +13,13 @@ export default class extends Base {
   }
   async setAction(){
     let data = {
-      name: 'wwww'
+      name: this.get('name') || 'wwww'
     }
     await this.session('userInfo', data);
-    this.success();
+    return this.redirect('/session/get');
+  }
+  async deleteAction(){
+    await this.session();
+    return this.redirect('/session/get');
   }
 }
