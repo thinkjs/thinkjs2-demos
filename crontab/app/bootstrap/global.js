@@ -17,6 +17,6 @@ console.log('bootstrap/global')
 // 1 分钟执行一次
 var jobId = crontab.scheduleJob("*/1 * * * *", function(){
   var d = new Date();
-  console.log('conrtab callback', d.getMinutes())
+  console.log('conrtab callback', d.getMinutes(), Date.now());
   return think.http('/index/test', true);
 });
