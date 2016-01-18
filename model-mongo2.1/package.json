@@ -6,6 +6,7 @@
     "start": "node www/development.js"
   },
   "dependencies": {
+    "mongodb": "^2.0.48",
     "thinkjs": "2.x.x"
   }
 }
