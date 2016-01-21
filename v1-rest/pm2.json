@@ -1,0 +1,16 @@
+{
+  "apps": [{
+    "name": "v1-rest",
+    "script": "www/production.js",
+    "cwd": "/Users/welefen/Develop/git/thinkjs2-demos//Users/welefen/Develop/git/thinkjs2-demos/v1-rest",
+    "exec_mode": "cluster",
+    "instances": 0,
+    "max_memory_restart": "1G",
+    "autorestart": true,
+    "node_args": [],
+    "args": [],
+    "env": {
+      
+    }
+  }]
+}
