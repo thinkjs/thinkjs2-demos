@@ -9,7 +9,7 @@ module.exports = think.controller(Base, {
    */
   indexAction: function(self){
     var model = this.model('demo');
-    model.where({id: {$eq: 6}}).find().then(function(data){
+    model.where({id: 6}).find().then(function(data){
       console.log(data);
     })
     //auto render template file index_index.html
